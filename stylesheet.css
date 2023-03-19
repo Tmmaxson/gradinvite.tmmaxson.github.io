@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    color: white;
 }
 
 body{
@@ -10,7 +11,6 @@ body{
 }
 
 .h1{
-    color: white;
     padding-top: 200px;
     text-align: center;
     font-size: 100px;
@@ -20,7 +20,6 @@ body{
 }
 
 header{
-    color: white;
     text-align: center;
     font-size: 100px;
     font-weight: bolder;
@@ -29,21 +28,41 @@ header{
 }
 
 .p1{
-    color: white;
     font-size: 30px;
     text-align: center;
     padding: 50px;
 }
 p{
-    color: white;
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
 }
+
+.p2{
+    font-size: 30px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 a:visited{
     color: royalblue;
 }
 a:link{
     color: gold;
 }
+
+ul{
+    list-style: none inside none;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+ul > li:before {
+    content: "-";
+    text-indent: -5px;
+}
+
+

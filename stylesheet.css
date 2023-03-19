@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    background-image: url("Doc2-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.h1{
+    color: white;
+    padding-top: 200px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: SignPainter;
+}
+
+header{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: SignPainter;
+}
+
+.p1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+}
+p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+a:visited{
+    color: royalblue;
+}
+a:link{
+    color: gold;
+}
